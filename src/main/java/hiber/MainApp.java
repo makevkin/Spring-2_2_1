@@ -31,6 +31,8 @@ public class MainApp {
          System.out.println();
       }
 
+      User user = userService.getUser("Audi", 231);
+      System.out.println(user);
       context.close();
    }
 }
